@@ -1,6 +1,11 @@
 .font-sf {
   font-family: 'SF Pro', sans-serif;
-  color: #282c34;
+  color: #464646;
+  font-size: 0.75rem;
+}
+.font-nf {
+  font-family: 'SF Pro', sans-serif;
+  color: #464646;
   font-size: 0.75rem;
 }
 .font-b{
@@ -11,10 +16,10 @@
   line-height: 1.7;
 }
 .font-s {
-  color: #282c34;
+  color: #1b1d22;
   font-size: 0.75rem;
   font-weight: 600;
-  line-height: 1.7;
+  line-height: 2.2;
 }
 .font-s:hover{
   color: black;
@@ -22,4 +27,30 @@
 .font{
   color: #464646;
   line-height: 1.7;
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+  .bet {
+    gap: 20px;
+  }
+}
+
+@media (min-width: 765px) and (max-width: 800px) {
+  .bet {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .font-nf{
+    font-size: 1.1rem;
+  }
+  .font-b {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+  .font-s {
+    font-size: 1.1rem;
+  }
 }

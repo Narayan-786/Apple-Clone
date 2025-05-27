@@ -1,14 +1,14 @@
 import './App.css';
 import ScrollSection from './Components/examples';
 import Navbar from './Components/Navbar';
-import NavbarP from './Components/navp';
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <ScrollSection/>
-      {/* <NavbarP/> */}
+      <Navbar />
+      <div className='overflow-hidden'>
+        <ScrollSection />
+      </div>
     </>
   );
 }
