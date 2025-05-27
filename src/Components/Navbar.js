@@ -116,7 +116,7 @@ export default function Navbar() {
                                 setHoveredItem(null);
                             }} />
 
-                        <div className="md:hidden relative top-0.5">
+                        <div className="md:hidden relative">
                             <button onClick={() => setMenuOpen(!isMenuOpen)}
                                 className="text-gray-700 hover:text-black transition-colors duration-200">
                                 {isMenuOpen ? (
