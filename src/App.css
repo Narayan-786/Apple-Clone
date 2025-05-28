@@ -1,30 +1,35 @@
 .font-sf {
-  font-family: 'SF Pro', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #464646;
   font-size: 0.75rem;
 }
+
 .font-nf {
-  font-family: 'SF Pro', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #464646;
   font-size: 0.75rem;
 }
-.font-b{
-  font-family: 'SF Pro', sans-serif;
+
+.font-b {
+  font-family: 'Inter', sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
   color: #282c34;
   line-height: 1.7;
 }
+
 .font-s {
   color: #1b1d22;
   font-size: 0.75rem;
   font-weight: 600;
   line-height: 2.2;
 }
-.font-s:hover{
+
+.font-s:hover {
   color: black;
 }
-.font{
+
+.font {
   color: #464646;
   line-height: 1.7;
 }
@@ -42,15 +47,65 @@
 }
 
 @media (max-width: 767px) {
-  .font-nf{
+  .font-nf {
     font-size: 1.1rem;
   }
+
   .font-b {
     font-size: 1.8rem;
     line-height: 1.5;
     font-weight: bold;
   }
+
   .font-s {
     font-size: 1.1rem;
+  }
+}
+
+.font-P {
+  font-family: 'Inter', sans-serif;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: var(--whitefont);
+  border-radius: 50px;
+  border: 2px solid #0071e3;
+  font-size: 18px;
+}
+
+.btn1 {
+  background-color: #0071e3;
+}
+
+.btn2 {
+  background-color: #0071e300;
+}
+
+.btn2:hover {
+  background-color: var(--bluecol);
+  color: var(--whitefont);
+}
+
+.background {
+  max-width: 80rem;
+  height: 692px;
+  margin: auto;
+  background-image: url('./assets/BGD1.png');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 735px) and (max-width: 1068px) {
+  .background {
+    height: 650px;
+    background-size:120vw;
+  }
+}
+@media(max-width: 735px) {
+  .background {
+    height: 500px;
+    background-image: url('./assets/BGM1.png');
   }
 }

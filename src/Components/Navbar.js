@@ -28,9 +28,9 @@ export default function Navbar() {
     };
 
     return (
-        <div className="sticky w-full h-10 top-0 bg-white z-50">
-            <div className="max-w-5xl mx-auto md:px-7 px-4">
-                <div className="flex justify-between items-center h-10">
+        <div className="sticky w-full h-11 min-h-11 top-0 bg-white z-50">
+            <div className="max-w-5xl mx-auto md:px-5 px-4">
+                <div className="flex justify-between items-center h-11">
                     <a className="flex-shrink-0" href="">
                         <img
                             src="/Images/Main.svg"
