@@ -28,14 +28,16 @@ export default function Navbar() {
     };
 
     return (
-        <div className="sticky w-full h-11 min-h-11 top-0 bg-white z-50">
+        <div className="sticky w-full h-11 top-0 bg-white z-50"
+        onMouseLeave={()=>setHoveredItem(null)}
+        >
             <div className="max-w-5xl mx-auto md:px-5 px-4">
                 <div className="flex justify-between items-center h-11">
                     <a className="flex-shrink-0" href="">
                         <img
                             src="/Images/Main.svg"
                             alt="Apple"
-                            className="h-11"
+                            className="h-5"
                         />
                     </a>
                     <div className="hidden md:flex justify-between items-center gap-6 bet md:gap-8 lg:gap-10 relative top-[-1.5px]">

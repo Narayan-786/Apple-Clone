@@ -67,11 +67,12 @@
 }
 
 .btn {
-  padding: 10px 20px;
-  color: var(--whitefont);
+  font-family: 'Inter', sans-serif;
+  padding: 8px 22px;
+  color: white;
   border-radius: 50px;
-  border: 2px solid #0071e3;
-  font-size: 18px;
+  border: 1px solid #0071e3;
+  font-size: 16px;
 }
 
 .btn1 {
@@ -80,16 +81,17 @@
 
 .btn2 {
   background-color: #0071e300;
+  color: #0071e3;
 }
 
 .btn2:hover {
-  background-color: var(--bluecol);
-  color: var(--whitefont);
+  background-color: #0071e3;
+  color: white;
 }
 
 .background {
-  max-width: 80rem;
-  height: 692px;
+  max-width: 60rem;
+  height: 480px;
   margin: auto;
   background-image: url('./assets/BGD1.png');
   background-position: bottom;
@@ -99,13 +101,14 @@
 
 @media (min-width: 735px) and (max-width: 1068px) {
   .background {
-    height: 650px;
-    background-size:120vw;
+    height: 485px;
+    max-width: 57rem;
   }
 }
 @media(max-width: 735px) {
   .background {
-    height: 500px;
+    height: 465px;
+    max-width: 50rem;
     background-image: url('./assets/BGM1.png');
   }
 }
