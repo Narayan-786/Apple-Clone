@@ -103,6 +103,10 @@
   background-repeat: no-repeat;
 }
 
+ptop {
+  padding-top: 6rem;
+}
+
 @media (min-width: 735px) and (max-width: 1068px) {
   .background {
     height: 485px;

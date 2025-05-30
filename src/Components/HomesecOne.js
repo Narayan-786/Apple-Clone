@@ -3,7 +3,7 @@ export default function HomesecOne() {
         <div className="w-full bg-white">
             <div className="flex flex-col gap-3">
                 <a href="#">
-                    <div className="bg-gray-100 w-full md:h-[580px] h-[510px] pt-24 ptop" href={"https://www.apple.com/in/"}>
+                    <div className="bg-gray-100 w-full md:h-[580px] h-[510px] ptop" href={"https://www.apple.com/in/"}>
                         <div className="flex flex-col background">
                             <div className="relative top">
                                 <div className="relative">
