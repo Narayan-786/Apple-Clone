@@ -28,16 +28,16 @@ export default function Navbar() {
     };
 
     return (
-        <div className="sticky w-full h-11 top-0 bg-white z-50"
+        <div className="sticky w-full md:h-11 h-12 top-0 bg-white z-50"
         onMouseLeave={()=>setHoveredItem(null)}
         >
             <div className="max-w-5xl mx-auto md:px-5 px-4">
-                <div className="flex justify-between items-center h-11">
+                <div className="flex justify-between items-center md:h-11 h-12">
                     <a className="flex-shrink-0" href="">
                         <img
                             src="/Images/Main.svg"
                             alt="Apple"
-                            className="h-5"
+                            className="md:h-5 h-6"
                         />
                     </a>
                     <div className="hidden md:flex justify-between items-center gap-6 bet md:gap-8 lg:gap-10 relative top-[-1.5px]">
@@ -118,7 +118,7 @@ export default function Navbar() {
                                 setHoveredItem(null);
                             }} />
 
-                        <div className="md:hidden relative top-1">
+                        <div className="md:hidden relative top-[2px] ">
                             <button onClick={() => setMenuOpen(!isMenuOpen)}
                                 className="text-gray-700 hover:text-black transition-colors duration-200">
                                 {isMenuOpen ? (
@@ -374,7 +374,7 @@ export default function Navbar() {
                     onMouseLeave={() => setDropdownOpen(false)}
                     className="bg-white md:h-auto h-screen"
                 >
-                    <button onClick={() => setDropdownOpen(!isDropdownOpen)} className="md:hidden absolute bg-white right-4 top-2"><X className="text-black" /></button>
+                    <button onClick={() => setDropdownOpen(!isDropdownOpen)} className="md:hidden absolute bg-white right-4 top-4"><X className="text-gray-700" strokeWidth={1.5} size={18} /></button>
                     <SearchDropdown />
                 </div>
             )}
@@ -383,7 +383,7 @@ export default function Navbar() {
                     onMouseLeave={() => setDropdownOpen(false)}
                     className="bg-white md:h-auto sm:h-screen"
                 >
-                    <button onClick={() => setDropdownOpen(!isDropdownOpen)} className="md:hidden absolute bg-white right-4 top-2"><X className="text-black" /></button>
+                    <button onClick={() => setDropdownOpen(!isDropdownOpen)} className="md:hidden absolute bg-white right-4 top-4"><X className="text-gray-700" strokeWidth={1.5} size={18} /></button>
                     <ShopDropdown />
                 </div>
             )}

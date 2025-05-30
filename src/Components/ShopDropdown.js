@@ -16,11 +16,11 @@ export default function ShopDropdown() {
                             <h1 className="font-b">Your Bag is empty.</h1>
                             <p className="md:text-xs text-md text-gray-500 font-medium"><a href="#" className="text-blue-700 underline">Sign in</a> to see if you have any saved items</p>
                             <div className="flex flex-col md:gap-2 gap-3 px-1">
-                                <li className="list-none font-nf py-1">My Profile</li>
-                                <li className="list-none md:text-xs text-md font font-semibold hover:text-black transition-hover duration-300 rounded-md flex items-center gap-1"><Box strokeWidth={1.5} size={16}/>&nbsp;&nbsp;Orders</li>
-                                <li className="list-none md:text-xs text-md font font-semibold hover:text-black transition-hover duration-300 rounded-md flex items-center gap-1"><LucideBookmark strokeWidth={1.5} size={16}/>&nbsp;&nbsp;Your Saves</li>
-                                <li className="list-none md:text-xs text-md font font-semibold hover:text-black transition-hover duration-300 rounded-md flex items-center gap-1"><LucideCog strokeWidth={1.5} size={16}/>&nbsp;&nbsp;Account</li>
-                                <li className="list-none md:text-xs text-md font font-semibold hover:text-black transition-hover duration-300 rounded-md flex items-center gap-1"><CircleUserRound strokeWidth={1.5} size={16}/>&nbsp;&nbsp;Sign in</li>
+                                <div href="#" className="font-nf py-1">My Profile</div>
+                                <a href="#" className="md:text-xs text-md font font-semibold hover:text-black transition-hover duration-300 rounded-md flex items-center gap-1"><Box strokeWidth={1.5} size={16}/>&nbsp;&nbsp;Orders</a>
+                                <a href="#" className="md:text-xs text-md font font-semibold hover:text-black transition-hover duration-300 rounded-md flex items-center gap-1"><LucideBookmark strokeWidth={1.5} size={16}/>&nbsp;&nbsp;Your Saves</a>
+                                <a href="#" className="md:text-xs text-md font font-semibold hover:text-black transition-hover duration-300 rounded-md flex items-center gap-1"><LucideCog strokeWidth={1.5} size={16}/>&nbsp;&nbsp;Account</a>
+                                <a href="#" className="md:text-xs text-md font font-semibold hover:text-black transition-hover duration-300 rounded-md flex items-center gap-1"><CircleUserRound strokeWidth={1.5} size={16}/>&nbsp;&nbsp;Sign in</a>
                             </div>
                         </div>
                     </div>

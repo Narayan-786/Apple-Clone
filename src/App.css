@@ -89,6 +89,10 @@
   color: white;
 }
 
+.top {
+  top: -3rem;
+}
+
 .background {
   max-width: 60rem;
   height: 480px;
@@ -104,11 +108,63 @@
     height: 485px;
     max-width: 57rem;
   }
+
+  .top {
+    top: -2.2rem;
+  }
+
+  .text {
+    font-size: 38px;
+  }
+
+  .hit {
+    height: 55px;
+    top: -2px;
+  }
+
+  .text1 {
+    font-size: 1.1rem;
+  }
+
+  .text2 {
+    font-size: 24px;
+  }
 }
+
 @media(max-width: 735px) {
   .background {
     height: 465px;
     max-width: 50rem;
     background-image: url('./assets/BGM1.png');
+  }
+
+  .top {
+    top: 0rem;
+  }
+
+  .text {
+    font-size: 24px;
+  }
+
+  .hit {
+    height: 35px;
+    top: -2px;
+  }
+
+  .text1 {
+    font-size: 0.8rem;
+  }
+
+  .text2 {
+    font-size: 19px;
+    top: -10px;
+  }
+
+  .btn {
+    padding: 6px 16px;
+    font-size: 14px;
+  }
+  .ptop{
+    padding-top: 3rem;
   }
 }
